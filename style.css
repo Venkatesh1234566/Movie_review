@@ -1,0 +1,47 @@
+#container{
+    display:flex;
+
+}
+#card{
+    height: 420px;
+    margin: 15px;
+    overflow: hidden;
+    margin-top: 3%;
+}
+#image
+{
+    height: 420px;
+    width: 280px;
+    border-radius: 5px;
+}
+#intro{
+    height:200px;
+    width:280px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom:19px;
+
+}
+p{
+    margin:12px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+
+#card:hover #intro{
+    height:200;
+    bottom:240;
+    background: rgb(29, 31, 31);
+}
+#card:hover p{
+    opacity: 1;
+    visibility: visible;
+}
+#card:hover {
+    cursor: pointer;
+    box-shadow: .8px .8px 10px rgb(241, 239, 239);
+}
+#image:hover{
+    border-color: blueviolet;
+}
