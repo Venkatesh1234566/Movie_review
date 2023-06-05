@@ -1,0 +1,87 @@
+body {
+    background-image:    url(https://files.123freevectors.com/wp-content/solidbackground/dark-navy-blue-free-solidcolor-background.jpg);
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;              /* optional, center the image */
+}
+#conjt{
+    border-radius: 25px;
+    border: 1px solid silver;
+
+}
+#Cast{
+    height: 300px;
+    display: flex;
+    
+    justify-content: space-evenly;
+    margin: auto;
+    margin-top: 3%;
+    border-radius: 25px;
+}
+
+#castimg{
+    width: 120px;
+    height: 160px;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 0%;
+    border: 2px solid rgb(243, 196, 10);
+}
+#text{
+    margin: auto;
+    margin-top: 3%;
+}
+hr{
+    
+    border: 1px solid rgb(243, 196, 10);
+}
+#about{
+    margin-right: 3%;
+    border-radius: 25px;
+    border: 2px solid rgb(243, 196, 10);
+}
+#abd
+{
+    margin-left: 3%;
+    margin-right: 46%;
+    border-radius: 25px;
+    
+}
+#r1
+{
+    margin-left: 3%;
+    margin-right: 43%;
+    border-radius: 25px;
+    
+}
+#r2
+{
+    margin-left: 3%;
+    margin-right: 3%;
+    
+}
+#r3
+{
+    margin-left: 45%;
+    margin-right: 3%;
+    
+}
+#conjTrailer{
+    text-align: center;
+    border: 1px solid #f70606;
+    width: 720px;
+    height: 400px;
+    margin-left: 20%;
+}
+#imgr1{
+    border: 2px solid rgb(243, 196, 10);
+    border-radius: 25px;
+    margin-right: 3%;
+}
+#imgr{
+    border: 2px solid rgb(243, 196, 10);
+    border-radius: 25px;
+}
+/*<video width="520" height="340" controls autoplay>  
+<source src="./The Conjuring 2 - Main Trailer [HD].mp4" type="video/mp4">  
+</video> */
